@@ -42,7 +42,7 @@ const Search = () => {
     }
 
     // console.log('Rendered once');
-  }, [term]);
+  }, [term, results.length]);
 
   const renderedResults = results.map((result) => {
     return (
